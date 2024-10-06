@@ -1,0 +1,53 @@
+
+
+.experties-wrapper{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:20px;
+  }
+  .experties{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .skill-platform {
+    background: $--main-box-background;
+    border: 1px solid $--main-box-background  ;
+    color:$--main-box-text-grey;
+    width: 165px;
+    height: 180px;
+    border-radius: 15px;
+  
+  }
+  .skill-platform:hover {
+    background: $--main-theme-secondary;
+    border: 1px solid #814cec;
+    color:#814cec;
+    transition: background 0.3s ease;
+  img {
+    transition: transform 500ms ease;
+  }
+  &:hover {
+    img {
+      transform: scale(1.2);
+    }
+  }
+}
+  .logo{
+   
+    padding:50px 0 0 50px ;
+    width:60px;
+    height:60px;
+  }
+  .skill-para-text{
+    display: flex;
+    justify-content: center;  
+  }
+  .skill-platform-name{
+    color:$--main-theme-primary;
+    font-size: 16px;
+  }
+
+  

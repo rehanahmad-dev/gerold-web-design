@@ -1,0 +1,105 @@
+/*******_____________******/
+
+.display-work-bar {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  border-radius: 15px;
+
+}
+.recent-work-box:hover .display-work-bar {
+  background: $--main-hover-background;
+  
+}
+.recent-work-box:hover .recent-work-para {
+    color: $--main--text-white;
+    fill:$--main--text-white;
+    
+  }
+.work-bar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap:40px;
+}
+
+.recent-work-box {
+  width: 400px;
+  height: 350px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 500ms ease;
+  img {
+    transition: transform 500ms ease;
+  }
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.recent-work-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.recent-work-btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: $--main--text-white;
+  background: $--main-btn-color;
+  border-radius: 60px;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+
+.recent-work-bar {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  background: $--main-theme-secondary;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+
+.recent-work-para {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: $--main-theme-primary;
+  fill: $--main-theme-primary; 
+}
+.recent-work-para,
+.studies-bar-title {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.working-people-name {
+    font-size: 18px;
+  }
+
+  /************/
+ .bio-data-form{
+
+    background: $--main--background;
+ }
+
+ .form-wrapper{
+   width:50%;
+    border-radius: 15px;
+ }

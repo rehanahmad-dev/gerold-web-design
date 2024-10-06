@@ -1,0 +1,50 @@
+.vertical-allignment-wrapper {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.studies-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+
+}
+
+.studies-bar-title {
+  font-size: 23px;
+}
+
+.personal-experience-and-graduation {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+  gap: 30px;
+}
+
+.experience-bar {
+  background: $--main--background;
+  border-radius: 20px;
+  padding: 15px 0 0 20px;
+  width: 550px;
+  height: 130px;
+}
+
+.studies-bar-title {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.qualification-header {
+  display: flex;             
+  align-items: center; 
+  justify-content: center;      
+  gap: 30px;                 
+}
+
+.qualification-logo {
+  width: 60px;
+  height: 60px;
+
+}
+

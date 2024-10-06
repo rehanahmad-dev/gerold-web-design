@@ -1,0 +1,131 @@
+  /************/
+  
+
+  .applying-form-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 150px;
+  }
+
+  .applying-form {
+    border-radius: 15px;
+    background: $--main--background;
+    height: 750px;
+    width: 650px;
+
+    .bio-data-form {
+
+      padding-top: 20px;
+      padding-left: 60px;
+      padding-right: 50px;
+    }
+
+
+    .form-input-label {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding-bottom: 20px;
+    }
+    .applying-form-btn {
+      font-weight: 700;
+      font-size: 16px;
+      color: white;
+      background: $--main-btn-color;
+      border-radius: 50px;
+      padding: 20px 40px;
+      border: hidden;
+    }
+    
+  }
+  .bio-data-form p {
+    padding-bottom: 20px; 
+  }
+ 
+
+  input {
+    padding: 20px 70px 20px 20px;
+  }
+
+  select {
+
+    color: grey;
+    width: 550px;
+    padding: 20px 0 20px 20px;
+    font-size: 16px;
+
+  }
+
+  input,
+  select {
+    background: Black;
+    border-radius: 10px;
+    border: 1px solid #22272c;
+    outline: none; 
+  }
+
+  input:focus,
+select:focus {
+  border: 1px solid #8750f7;
+}
+
+  ::placeholder {
+    color: grey;
+    font-size: 16px;
+  }
+ 
+   
+
+  .textarea {
+    padding-bottom: 150px;
+    padding-right: 345px;
+  }
+
+ 
+
+  ///////////////////////////
+
+  .contact-information-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contact-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .circle-contact-logo {
+    width: 50px;
+    height: 50px;
+    background: $--main-btn-color;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .contact-logo {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    filter: brightness(0) invert(1);
+  }
+
+  .contact-detail-data {
+    font-weight: 700;
+    width: 410px;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $--main-theme-primary;
+    }
+  }

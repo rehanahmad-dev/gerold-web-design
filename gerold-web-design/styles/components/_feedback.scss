@@ -1,0 +1,62 @@
+/*********/
+
+.client-story{
+    display: flex;
+    justify-content: center;
+    gap:70px;
+  }
+  .client-para-description {
+    text-align: left;
+  }
+  .client-stories{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+  }
+  .company-feedback-box{
+    background: $--main-box-background;
+    width:250px;
+    height:350px;
+    border-radius: 15px; 
+    padding: 25px;
+    
+  }
+  .company-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .company-clients-image{
+    width: 100px;
+    height:100px;
+    border:1px solid transparent;
+    border-radius: 5px 5px 5px 125px;
+  }
+  .companies-feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:20px;
+  }
+  
+  .client-para-description{
+    font-size:16px;
+  }
+  
+  .client-name{
+    font-size:18px;
+  }
+
+  .client-profession{
+    font-size:14px;
+  }
+ .company-feedback-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap:40px
+
+ }
+ 

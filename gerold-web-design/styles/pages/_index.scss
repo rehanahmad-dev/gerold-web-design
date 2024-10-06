@@ -1,0 +1,170 @@
+.icon {
+  background-color: $--main-theme-primary;
+}
+
+body {
+  background: $--main--background;
+  color: $--main--text-white;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.content-wrapper {
+  padding: 45px 320px;
+}
+
+.show-case {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.user-info {
+  gap: 500px;
+}
+
+.user-name {
+  color: #dddddd;
+  font-size: 36px;
+}
+
+.profession {
+  font-weight: 200;
+  font-size: 60px;
+  width: 500px;
+  background: $--main-heading-color;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.profession-description {
+  max-width: 460px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #DDDDDD;
+}
+.show-case-btn{
+  padding-right: 55px;
+  
+}
+.show-case-cv-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
+}
+
+
+.social-media-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cv-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid $--main-theme-primary;
+  border-radius: 50px;
+  color: $--main-theme-primary;
+  transition: all 0.3s ease;
+  width: 200px;
+  height: 50px;
+  padding: 0;
+
+  &:hover {
+    background: $--main-theme-primary;
+    color: $--main--text-white;
+
+  }
+}
+
+.sm-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid $--main-theme-primary;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  padding: 0;
+  cursor: pointer;
+
+  &:hover {
+    background: $--main-theme-primary;
+  }
+}
+
+.my-icon {
+ 
+  width: 18px;
+  height: 18px;
+
+}
+
+.sm-btn:hover .my-icon,
+.cv-btn:hover .download-logo {
+  filter: brightness(1000%) contrast(200%);
+}
+
+
+.download-logo {
+ 
+  padding-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+.my-pic {
+  border: solid 2px $--main-theme-secondary;
+  border-radius: 40px;
+  transform: rotate(4.29deg);
+  position: relative;
+  transition: 0.3s;
+
+  &:hover {
+    border: solid 2px $--main-theme-primary;
+    transform: rotate(0deg);
+    transition: 0.3s;
+  }
+}
+
+
+
+
+/***USER_STATS***/
+.user-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-weight: 700;
+  color: $--main--text-white;
+  padding-top: 150px;
+  gap: 150px;
+
+  .experience {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.text {
+  font-size: 18px;
+}
+
+.years {
+  font-size: 60px;
+}
